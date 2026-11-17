@@ -34,8 +34,7 @@ public class tarea23 {
             } catch (UnknownHostException e) {
                 System.err.println("No se pudo resolver: " + e.getMessage());
             }
-
-            teclado.close();
         }
+        teclado.close();
     }
 }
